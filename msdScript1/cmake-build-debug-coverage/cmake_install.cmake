@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jay/Desktop/MSD/CS6015/msdScript1
+# Install script for directory: /Users/jay/superjae0625-CS6015_lab3/msdScript1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jay/Desktop/MSD/CS6015/msdScript1/cmake-build-debug-coverage/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jay/superjae0625-CS6015_lab3/msdScript1/cmake-build-debug-coverage/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
