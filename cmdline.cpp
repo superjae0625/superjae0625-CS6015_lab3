@@ -1,14 +1,14 @@
 #include "cmdline.hpp"
 
 void use_arguments(int argc, const char * argv[]){
-    
+
 
     for(int i = 1; i < argc; i++){
         string argument = argv[i];
         string help = "--help";
         string test = "--test";
         string empty = "a";
-        
+
         if(argument.compare(help)==0){
             cout << "This is the help text."<< endl;
             exit(0);

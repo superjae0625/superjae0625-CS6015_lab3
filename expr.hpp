@@ -44,7 +44,7 @@ class MultExpr : public Expr{
 public:
     Expr *lhs;
     Expr *rhs;
-    
+
     MultExpr(Expr *lhs, Expr *rhs);
     bool equals(Expr *e);
     int interp();
